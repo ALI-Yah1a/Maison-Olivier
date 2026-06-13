@@ -143,3 +143,103 @@ a {
     color: #f2ebd9;
     margin-left: 30px;
 }
+
+.quick-hours-section{
+    padding: 0px 40px;
+}
+.quick-hours{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.hours-block{
+    flex-grow: 1;
+}
+.hours-title{
+    font-size: 22px;
+    color: #f2ebd9;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.hours-text{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: rgba(242, 235, 217, 0.6);
+}
+
+.section-label{
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #d9b873;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.section-heading{
+    font-size: 55px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    line-height: 1.1;
+    color: #f2ebd9;
+    margin-bottom: 40px;
+}
+.paraghraph-text{
+    font-size: 18px;
+    color: rgba(242, 235, 217, 0.7);
+    max-width: 800px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-family: "Arial", sans-serif;
+}
+.text-link{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #d9b873;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d9b873;
+}
+
+
+.story-section{
+    padding: 100px 40px;
+}
+.story-main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.story-text{
+    flex-basis: 50%;
+}
+.story-stats{
+    flex-basis: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-column-gap: 30px;
+}
+.stat-box{
+    display: flex;
+    flex-direction: column;
+}
+.stat-number{
+    font-size: 55px;
+    color: #d9b873;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.stat-label{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: rgba(242, 235, 217, 0.6);
+}
