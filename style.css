@@ -243,3 +243,63 @@ a {
     font-size: 14px;
     color: rgba(242, 235, 217, 0.6);
 }
+
+.menu-section{
+    padding: 80px 40px;
+}
+.menu-header{
+    max-width: 1200px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+.menu-note{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: rgba(242, 235, 217, 0.7);
+}
+.menu-grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+}
+.menu-column-left{
+    display: block;
+}
+.menu-column-right{
+    display: block;
+}
+.menu-category-title{
+    font-style: italic;
+    color: #d9b873;
+    font-size: 30px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+.menu-item{
+    margin-bottom: 40px;
+}
+.menu-item-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+.menu-item-name{
+    font-size: 20px;
+    color: #f2ebd9;
+}
+.menu-item-price{
+    font-size: 18px;
+    color: #d9b873;
+}
+.menu-item-description{
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    color: rgba(242, 235, 217, 0.3);
+}
