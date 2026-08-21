@@ -573,3 +573,167 @@ a {
 .gallery-item-main:hover .gallery-overlay {
     opacity: 1;
 }
+.press-section{
+    padding: 80px 40px;
+    background-color: #120e0a;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.press-header-container{
+    max-width: 1200px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+.press-grid-container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+.press-box-1{
+    display: block;
+}
+.press-box-2{
+    display: block;
+}
+.press-box-3{
+    display: block;
+}
+.press-text{
+    font-size: 20px;
+    font-style: italic;
+    color: #f2ebd9;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(217, 184, 115, 0.3);
+}
+.press-source{
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #d9b873;
+    text-transform: uppercase;
+}
+.reserve-section{
+    padding: 100px 40px;
+}
+.reserve-main-container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction:row;
+    gap: 100px;
+}
+.reserve-info-container{
+    flex-basis: 50%;
+}
+.contact-row-1, .contact-row-2, .contact-row-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0px;
+}
+.contact-label{
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #d9b873;
+}
+.contact-value{
+    font-size: 18px;
+    color: #f2ebd9;
+}
+.reserve-form-container{
+    flex-basis: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    background-color: #120e0a;
+}
+.booking-form{
+    display: block;
+}
+.form-row-1,.form-row-2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.form-row-3,.form-row-4{
+    margin-bottom: 30px;
+}
+.form-group-left,.form-group-right{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.form-group-full{
+    display: flex;
+    flex-direction: column;
+}
+.form-label{
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #d9b873;
+    margin-bottom: 10px;
+}
+.form-input{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0px;
+    color: #f2ebd9;
+    font-size: 18px;
+    font-family: "Georgia", serif;
+}
+.form-input:focus{
+    outline-width: 0px;
+    border-bottom: 1px solid #d9b873;
+}
+.form-select{
+    appearance: none;
+    cursor: pointer;
+}
+.form-textarea{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0px;
+    color: #f2ebd9;
+    font-size: 18px;
+    font-family: "Georgia", serif;
+    resize: vertical;
+    min-height: 50px;
+}
+.form-textarea:focus{
+    outline-width: 0px;
+    border-bottom-color: #d9b873;
+}
+.form-submit-container{
+    margin-top: 40px;
+    text-align: center;
+}
+.form-submit-btn{
+    background-color: #d9b873;
+    color: #15110c;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 18px 0px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+.form-note{
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    color: rgba(242, 235, 217, 0.6);
+    margin-top: 15px;
+}
