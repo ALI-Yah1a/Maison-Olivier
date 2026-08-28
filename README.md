@@ -1,20 +1,20 @@
 # Maison Olivier
+<img width="1885" height="1022" alt="image" src="https://github.com/user-attachments/assets/0a67eca7-67ff-43ca-b5da-aae5cbf79e4b" />
 
-## Description
-Maison Olivier is a French dining restaurant website designed using only HTML and CSS. The site acts as a static template for a premium bistro, featuring a dark theme with gold typography to match the upscale, candlelit atmosphere. It is built to showcase the restaurant's premium offerings, including an interactive menu, a visual gallery, and a booking system. 
+## Description and How to Use
+The website is about a fake French fancy restaurant that does not exist in real life and called Masion Oliver. The website is built with only HTML and CSS, so what makes it unique is the simplicity. Also, it does not need anything installed on your device to run it, just click the demo link! The website is designed with a professional and attractive color scheme, and it has more than 7 sections, which makes it a great example for any real restaurant to use.
 
 ## Features
 
-* **Hero Section:** A landing area with a strong tagline focusing on seasonal menus, paired with quick call-to-action buttons for reservations and the menu.
-* **About Section:** Shares the restaurant's history, highlighting its 40 years of service, 23 signature dishes, 180 seats, and 1 Michelin star.
-* **Menu Display:** A structured menu split into Appetizers, Mains, Desserts & Cheeses, and Beverages, alongside a special multi-course Chef's Choice option.
-* **Chef Bio:** A brief introductory section for Chef Olivier, giving the website a more personal touch.
-* **Gallery:** A visual grid showcasing the restaurant's interior design, ambiance, and dishes.
-* **Testimonials:** A section for customer reviews to build social proof.
-* **Reservations:** A form allowing users to input their desired date, time, party size, and contact details for table bookings.
-* **Contact & Footer:** Displays the physical address in Paris, detailed opening hours for the week, contact emails, and social media links.
+* **Hero Section:** A home page with a good looking navbar. It contains 2 buttons, one for the reservations, and the other for the menu.
+* **About Section:** It shares the story of the restaurant, the restaurant working time, and some of the restaurant achievements.
+* **Menu Section:** The longest section, it has 4 containers, each one is for a different type of food .
+* **Chef Bio Section:** A fake brief introductory section for fake chef, it should be someone called Oliver but it is me.
+* **Gallery Section:** A section that a multiple fake images of the restaurant.
+* **Reservations Section:** A form that allow users to reserve a table, they can choose a specific date, time, and everything.
+* **Visit Section:** It shows the restaurant address in Paris, detailed opening hours for the week.
 
 ## Tech Stack
 
-* **HTML5:** Used for the semantic structuring of the page content.
-* **CSS3:** Handles all the styling, including the dark color scheme and layout styling without the need for JavaScript.
+* **HTML:** I used it to build the structure of the website.
+* **CSS:** I used it to give the website the styling prosperities and the visuals.
