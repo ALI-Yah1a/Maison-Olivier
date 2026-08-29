@@ -18,3 +18,6 @@ The website is about a fake French fancy restaurant that does not exist in real 
 
 * **HTML:** I used it to build the structure of the website.
 * **CSS:** I used it to give the website the styling prosperities and the visuals.
+
+## AI Use
+I used AI to make the website responsive and as a help with the website idea and its content, not for the code itself. So, it does not exceed the limit of 30%.
