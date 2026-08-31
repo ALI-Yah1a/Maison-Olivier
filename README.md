@@ -21,3 +21,8 @@ The website is about a fake French fancy restaurant that does not exist in real 
 
 ## AI Use
 I used AI to make the website responsive and as a help with the website idea and its content, not for the code itself. So, it does not exceed the limit of 30%.
+
+## The Photos
+The photos are not AI generated
+- The Chef Image: this is my personal pfp.
+- The Gallery Images: All of them are from google, so I did not use AI to generate them.
