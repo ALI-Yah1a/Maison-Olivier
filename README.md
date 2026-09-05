@@ -26,3 +26,6 @@ I used AI to make the website responsive and as a help with the website idea and
 The photos are not AI generated
 - The Chef Image: this is my personal pfp.
 - The Gallery Images: All of them are from google, so I did not use AI to generate them.
+
+## A Note to The Reviewer
+- I know that the table booking does not work because I have no experience with JS so i made a static website. And about the UI, there are some AI-generated parts, but the AI gave me the design only, not the code. So, I translated the design into code 100% by myself.
