@@ -478,29 +478,6 @@ a {
     margin-bottom: 40px;
 }
 
-.section-label {
-    color: #d4af37;
-    font-size: 0.85rem;
-    letter-spacing: 2px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.section-heading {
-    font-family: "Georgia", serif;
-    font-size: 3rem;
-    font-weight: 400;
-    margin: 0 0 20px 0;
-    line-height: 1.2;
-}
-
-.paragraph-text {
-    font-size: 1rem;
-    line-height: 1.6;
-    max-width: 800px;
-    color: rgba(242, 235, 217, 0.7);
-}
 
 .gallery-main-container {
     max-width: 1200px;
