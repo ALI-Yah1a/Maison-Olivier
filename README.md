@@ -28,4 +28,5 @@ The photos are not AI generated
 - The Gallery Images: All of them are from google, so I did not use AI to generate them.
 
 ## A Note to The Reviewer
-- I know that the table booking does not work because I have no experience with JS so i made a static website. And about the UI, there are some AI-generated parts, but the AI gave me the design only, not the code. So, I translated the design into code 100% by myself.
+* First: I know that the table booking does not work because I have no experience with JS so i made a static website. And about the UI, there are some AI-generated parts, but the AI gave me the design only, not the code. So, I translated the design into code 100% by myself.
+* Second: I am sorry for those images; I did not know that they are AI-generated. I replaced them with new ones, I hope you like them. Thanks for your effort.
