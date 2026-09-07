@@ -665,6 +665,7 @@ a {
 }
 .form-input{
     background-color: transparent;
+    border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 10px 0px;
     color: #f2ebd9;
@@ -714,6 +715,39 @@ a {
     font-size: 11px;
     color: rgba(242, 235, 217, 0.6);
     margin-top: 15px;
+}
+.success-message {
+    display: none;
+    border: 1px solid #d9b873;
+    padding: 40px;
+    text-align: center;
+    color: #f2ebd9;
+    font-family: "Georgia", serif;
+}
+.success-message h3 {
+    color: #d9b873;
+    font-family: "Arial", sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.close-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #d9b873;
+    color: #15110c;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#success-msg:target {
+    display: block;
+}
+#success-msg:target + .booking-form {
+    display: none;
 }
 .visit-section {
     padding-top: 80px;
@@ -804,7 +838,6 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    /* محاكاة شكل الخريطة بالشبكة */
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);

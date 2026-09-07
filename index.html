@@ -318,15 +318,21 @@
                 </div>
             </div>
         <div class="reserve-form-container">
-            <form class="booking-form" action="#" method="POST">
+            <div id="success-msg" class="success-message">
+                <h3>THANK YOU</h3>
+                <p>Your table request has been confirmed.</p>
+                <a href="#" class="close-btn">CLOSE</a>
+            </div>
+
+            <form class="booking-form" action="#success-msg" method="GET">
                 <div class="form-row-1">
                     <div class="form-group-left">
                         <label class="form-label" for="name">NAME</label>
-                        <input class="form-input" type="text" id="name" placeholder="Ali Yahia">
+                        <input class="form-input" type="text" id="name" name="name" placeholder="Ali Yahia" required>
                     </div>
                     <div class="form-group-right">
                         <label class="form-label" for="guests">GUESTS</label>
-                        <select class="form-input form-select" id="guests">
+                        <select class="form-input form-select" id="guests" name="guests">
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
@@ -336,11 +342,11 @@
                 <div class="form-row-2">
                     <div class="form-group-left">
                         <label class="form-label" for="date">DATE</label>
-                        <input class="form-input" type="date" id="date">
+                        <input class="form-input" type="date" id="date" name="date" required>
                     </div>
                     <div class="form-group-right">
                         <label class="form-label" for="time">TIME</label>
-                        <select class="form-input form-select" id="time">
+                        <select class="form-input form-select" id="time" name="time">
                             <option>20:00 PM</option>
                             <option>20:30 PM</option>
                             <option>21:00 PM</option>
@@ -350,13 +356,13 @@
                 <div class="form-row-3">
                     <div class="form-group-full">
                         <label class="form-label" for="email">EMAIL</label>
-                        <input class="form-input" type="email" id="email" placeholder="ali.yahia@example.com">
+                        <input class="form-input" type="email" id="email" name="email" placeholder="ali.yahia@example.com" required>
                     </div>
                 </div>
                 <div class="form-row-4">
                     <div class="form-group-full">
                         <label class="form-label" for="notes">NOTES FOR THE KITCHEN</label>
-                        <textarea class="form-input" id="notes" placeholder="Any special requests or notes..."></textarea>
+                        <textarea class="form-input" id="notes" name="notes" placeholder="Any special requests or notes..."></textarea>
                     </div>
                 </div>
                 <div class="form-submit-container">
